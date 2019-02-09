@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uUd-TJ-5uq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="5go-8r-FUZ">
+            <objects>
+                <navigationController id="Cpf-iL-Saj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="20W-z9-8tQ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OnI-c2-CTc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9d9-CE-VKD" kind="relationship" relationship="rootViewController" id="kNh-1Y-Qvr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bDC-mm-iwC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1341" y="90"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Q2W-3E-6sa">
+            <objects>
+                <viewController id="9d9-CE-VKD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sUY-Vd-OC8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ays-lq-xx1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Mb-Qo-39W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MS5-j7-F4J"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QlY-sY-SSS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-639" y="90"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="DEo-qg-YNt">
+            <objects>
+                <tabBarController id="uUd-TJ-5uq" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Jc1-ID-GYa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Cpf-iL-Saj" kind="relationship" relationship="viewControllers" id="S3k-GT-oXa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4iF-ZT-Pqj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2069" y="90"/>
+        </scene>
+    </scenes>
+</document>

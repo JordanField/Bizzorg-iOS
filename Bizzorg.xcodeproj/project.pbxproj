@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17126B0D1D8C5DD400272763 /* EmployeesSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17126B0C1D8C5DD400272763 /* EmployeesSummaryTableViewCell.swift */; };
+		17151A0A1D7F27B500F045A4 /* EmployeeDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17151A091D7F27B500F045A4 /* EmployeeDetailsTableViewController.swift */; };
+		171EB5B51D8F2B94008F6076 /* ToDoItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EB5B41D8F2B94008F6076 /* ToDoItemTableViewController.swift */; };
+		17324B311F9CE23100F515E8 /* EmployeeV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17324B301F9CE23100F515E8 /* EmployeeV2.swift */; };
+		17324B331F9CEA5900F515E8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17324B321F9CEA5900F515E8 /* User.swift */; };
+		1748C3A91D93F18500B4AD87 /* ScheduleItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748C3A81D93F18500B4AD87 /* ScheduleItemTableViewController.swift */; };
+		1760488D1DA97BE800FE837B /* ModifyScheduleItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1760488C1DA97BE800FE837B /* ModifyScheduleItemTableViewController.swift */; };
+		17642D341D8BFA14005CAA9B /* ToDoListItemSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17642D331D8BFA14005CAA9B /* ToDoListItemSummaryTableViewCell.swift */; };
+		17680ED61D927FCF00F7B68D /* ScheduleItemSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17680ED51D927FCF00F7B68D /* ScheduleItemSummaryTableViewCell.swift */; };
+		17680ED91D92807000F7B68D /* ScheduleItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17680ED81D92807000F7B68D /* ScheduleItemsTableViewController.swift */; };
+		17680EDB1D9280D800F7B68D /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17680EDA1D9280D800F7B68D /* ScheduleItem.swift */; };
+		176939901D815515009F624C /* EmployeeApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769398F1D815515009F624C /* EmployeeApiCalls.swift */; };
+		177AB1EE1D36416800118380 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177AB1ED1D36416800118380 /* Employee.swift */; };
+		177AB1F01D36419700118380 /* EmployeeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177AB1EF1D36419700118380 /* EmployeeGroup.swift */; };
+		177AB1F21D36421B00118380 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177AB1F11D36421B00118380 /* ToDoListItem.swift */; };
+		177B5F391D30716B006A6801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F381D30716B006A6801 /* AppDelegate.swift */; };
+		177B5F4E1D30716B006A6801 /* BizzorgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F4D1D30716B006A6801 /* BizzorgTests.swift */; };
+		177B5F591D30716B006A6801 /* BizzorgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F581D30716B006A6801 /* BizzorgUITests.swift */; };
+		177B5F671D3071F1006A6801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177B5F661D3071F1006A6801 /* Main.storyboard */; };
+		177B5F691D3071FB006A6801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177B5F681D3071FB006A6801 /* LaunchScreen.storyboard */; };
+		177B5F781D307281006A6801 /* ModifyGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F6B1D307281006A6801 /* ModifyGroupTableViewController.swift */; };
+		177B5F7A1D307281006A6801 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F6D1D307281006A6801 /* Constants.swift */; };
+		177B5F7C1D307281006A6801 /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F6F1D307281006A6801 /* GroupsTableViewController.swift */; };
+		177B5F7D1D307281006A6801 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F701D307281006A6801 /* GroupViewController.swift */; };
+		177B5F7E1D307281006A6801 /* NetworkingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F711D307281006A6801 /* NetworkingFunctions.swift */; };
+		177B5F7F1D307281006A6801 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F721D307281006A6801 /* ProfileTableViewController.swift */; };
+		177B5F801D307281006A6801 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F731D307281006A6801 /* ToDoListTableViewController.swift */; };
+		177B5F811D307281006A6801 /* GroupSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F741D307281006A6801 /* GroupSummaryTableViewCell.swift */; };
+		177B5F821D307281006A6801 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F751D307281006A6801 /* InitialViewController.swift */; };
+		177B5F831D307281006A6801 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F761D307281006A6801 /* LoginViewController.swift */; };
+		177B5F841D307281006A6801 /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B5F771D307281006A6801 /* MemberCollectionViewCell.swift */; };
+		17AF54361DD08F4700FC935A /* GroupsExtraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF54351DD08F4700FC935A /* GroupsExtraTableViewController.swift */; };
+		17C000D71D33D008002DCCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C000D61D33D008002DCCAC /* Assets.xcassets */; };
+		17C9371B1E28DA43003E05AB /* ViewControllerFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C9371A1E28DA43003E05AB /* ViewControllerFunctions.swift */; };
+		17CE7A561D96B8B1004D5BB8 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE7A551D96B8B1004D5BB8 /* DatePickerTableViewCell.swift */; };
+		17CE7A581D96BA22004D5BB8 /* ItemPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE7A571D96BA22004D5BB8 /* ItemPickerTableViewCell.swift */; };
+		17F7AB011D950F08005AD02B /* ModifyToDoItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7AB001D950F08005AD02B /* ModifyToDoItemTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		177B5F4A1D30716B006A6801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177B5F2D1D30716B006A6801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 177B5F341D30716B006A6801;
+			remoteInfo = Bizzorg;
+		};
+		177B5F551D30716B006A6801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177B5F2D1D30716B006A6801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 177B5F341D30716B006A6801;
+			remoteInfo = Bizzorg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17126B0C1D8C5DD400272763 /* EmployeesSummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		17151A091D7F27B500F045A4 /* EmployeeDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsTableViewController.swift; sourceTree = "<group>"; };
+		171EB5B41D8F2B94008F6076 /* ToDoItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemTableViewController.swift; sourceTree = "<group>"; };
+		17324B301F9CE23100F515E8 /* EmployeeV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeV2.swift; sourceTree = "<group>"; };
+		17324B321F9CEA5900F515E8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1748C3A81D93F18500B4AD87 /* ScheduleItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleItemTableViewController.swift; sourceTree = "<group>"; };
+		1760488C1DA97BE800FE837B /* ModifyScheduleItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyScheduleItemTableViewController.swift; sourceTree = "<group>"; };
+		17642D331D8BFA14005CAA9B /* ToDoListItemSummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListItemSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		17680ED51D927FCF00F7B68D /* ScheduleItemSummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleItemSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		17680ED81D92807000F7B68D /* ScheduleItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleItemsTableViewController.swift; sourceTree = "<group>"; };
+		17680EDA1D9280D800F7B68D /* ScheduleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
+		1769398F1D815515009F624C /* EmployeeApiCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeApiCalls.swift; sourceTree = "<group>"; };
+		177AB1ED1D36416800118380 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		177AB1EF1D36419700118380 /* EmployeeGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeGroup.swift; sourceTree = "<group>"; };
+		177AB1F11D36421B00118380 /* ToDoListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
+		177B5F351D30716B006A6801 /* Bizzorg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bizzorg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177B5F381D30716B006A6801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		177B5F441D30716B006A6801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177B5F491D30716B006A6801 /* BizzorgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizzorgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		177B5F4D1D30716B006A6801 /* BizzorgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizzorgTests.swift; sourceTree = "<group>"; };
+		177B5F4F1D30716B006A6801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177B5F541D30716B006A6801 /* BizzorgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizzorgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		177B5F581D30716B006A6801 /* BizzorgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizzorgUITests.swift; sourceTree = "<group>"; };
+		177B5F5A1D30716B006A6801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177B5F661D3071F1006A6801 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		177B5F681D3071FB006A6801 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		177B5F6B1D307281006A6801 /* ModifyGroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyGroupTableViewController.swift; sourceTree = "<group>"; };
+		177B5F6D1D307281006A6801 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		177B5F6F1D307281006A6801 /* GroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		177B5F701D307281006A6801 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		177B5F711D307281006A6801 /* NetworkingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingFunctions.swift; sourceTree = "<group>"; };
+		177B5F721D307281006A6801 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		177B5F731D307281006A6801 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		177B5F741D307281006A6801 /* GroupSummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		177B5F751D307281006A6801 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		177B5F761D307281006A6801 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		177B5F771D307281006A6801 /* MemberCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewCell.swift; sourceTree = "<group>"; };
+		17AF54351DD08F4700FC935A /* GroupsExtraTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsExtraTableViewController.swift; sourceTree = "<group>"; };
+		17C000D61D33D008002DCCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C9371A1E28DA43003E05AB /* ViewControllerFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFunctions.swift; sourceTree = "<group>"; };
+		17CE7A551D96B8B1004D5BB8 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		17CE7A571D96BA22004D5BB8 /* ItemPickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPickerTableViewCell.swift; sourceTree = "<group>"; };
+		17F7AB001D950F08005AD02B /* ModifyToDoItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyToDoItemTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177B5F321D30716B006A6801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177B5F461D30716B006A6801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177B5F511D30716B006A6801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17680ED71D92802B00F7B68D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				177B5F731D307281006A6801 /* ToDoListTableViewController.swift */,
+				17680ED81D92807000F7B68D /* ScheduleItemsTableViewController.swift */,
+				177B5F6F1D307281006A6801 /* GroupsTableViewController.swift */,
+				177B5F721D307281006A6801 /* ProfileTableViewController.swift */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		177AB1E91D36401F00118380 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17C9371A1E28DA43003E05AB /* ViewControllerFunctions.swift */,
+				177B5F751D307281006A6801 /* InitialViewController.swift */,
+				177B5F761D307281006A6801 /* LoginViewController.swift */,
+				17F7AB021D95A3D1005AD02B /* Detail Views */,
+				17680ED71D92802B00F7B68D /* Tabs */,
+				17B4BC091E341068001005DB /* Modify */,
+				17AF54351DD08F4700FC935A /* GroupsExtraTableViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		177AB1EA1D36409700118380 /* View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				17642D331D8BFA14005CAA9B /* ToDoListItemSummaryTableViewCell.swift */,
+				17680ED51D927FCF00F7B68D /* ScheduleItemSummaryTableViewCell.swift */,
+				177B5F741D307281006A6801 /* GroupSummaryTableViewCell.swift */,
+				17126B0C1D8C5DD400272763 /* EmployeesSummaryTableViewCell.swift */,
+				177B5F771D307281006A6801 /* MemberCollectionViewCell.swift */,
+				17CE7A551D96B8B1004D5BB8 /* DatePickerTableViewCell.swift */,
+				17CE7A571D96BA22004D5BB8 /* ItemPickerTableViewCell.swift */,
+			);
+			name = "View Cells";
+			sourceTree = "<group>";
+		};
+		177AB1EB1D3640B600118380 /* Data and Networking */ = {
+			isa = PBXGroup;
+			children = (
+				177B5F711D307281006A6801 /* NetworkingFunctions.swift */,
+				177B5F6D1D307281006A6801 /* Constants.swift */,
+				1769398F1D815515009F624C /* EmployeeApiCalls.swift */,
+				177AB1EC1D36415900118380 /* Data Models */,
+			);
+			name = "Data and Networking";
+			sourceTree = "<group>";
+		};
+		177AB1EC1D36415900118380 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				177AB1ED1D36416800118380 /* Employee.swift */,
+				177AB1EF1D36419700118380 /* EmployeeGroup.swift */,
+				177AB1F11D36421B00118380 /* ToDoListItem.swift */,
+				17680EDA1D9280D800F7B68D /* ScheduleItem.swift */,
+				17324B301F9CE23100F515E8 /* EmployeeV2.swift */,
+				17324B321F9CEA5900F515E8 /* User.swift */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		177B5F2C1D30716B006A6801 = {
+			isa = PBXGroup;
+			children = (
+				177B5F371D30716B006A6801 /* Bizzorg */,
+				177B5F4C1D30716B006A6801 /* BizzorgTests */,
+				177B5F571D30716B006A6801 /* BizzorgUITests */,
+				177B5F361D30716B006A6801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		177B5F361D30716B006A6801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				177B5F351D30716B006A6801 /* Bizzorg.app */,
+				177B5F491D30716B006A6801 /* BizzorgTests.xctest */,
+				177B5F541D30716B006A6801 /* BizzorgUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		177B5F371D30716B006A6801 /* Bizzorg */ = {
+			isa = PBXGroup;
+			children = (
+				177B5F381D30716B006A6801 /* AppDelegate.swift */,
+				177AB1EB1D3640B600118380 /* Data and Networking */,
+				177AB1E91D36401F00118380 /* View Controllers */,
+				177AB1EA1D36409700118380 /* View Cells */,
+				177B5F6A1D307222006A6801 /* Storyboards */,
+				177B5F441D30716B006A6801 /* Info.plist */,
+				17C000D61D33D008002DCCAC /* Assets.xcassets */,
+			);
+			path = Bizzorg;
+			sourceTree = "<group>";
+		};
+		177B5F4C1D30716B006A6801 /* BizzorgTests */ = {
+			isa = PBXGroup;
+			children = (
+				177B5F4D1D30716B006A6801 /* BizzorgTests.swift */,
+				177B5F4F1D30716B006A6801 /* Info.plist */,
+			);
+			path = BizzorgTests;
+			sourceTree = "<group>";
+		};
+		177B5F571D30716B006A6801 /* BizzorgUITests */ = {
+			isa = PBXGroup;
+			children = (
+				177B5F581D30716B006A6801 /* BizzorgUITests.swift */,
+				177B5F5A1D30716B006A6801 /* Info.plist */,
+			);
+			path = BizzorgUITests;
+			sourceTree = "<group>";
+		};
+		177B5F6A1D307222006A6801 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				177B5F661D3071F1006A6801 /* Main.storyboard */,
+				177B5F681D3071FB006A6801 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		17B4BC091E341068001005DB /* Modify */ = {
+			isa = PBXGroup;
+			children = (
+				177B5F6B1D307281006A6801 /* ModifyGroupTableViewController.swift */,
+				17F7AB001D950F08005AD02B /* ModifyToDoItemTableViewController.swift */,
+				1760488C1DA97BE800FE837B /* ModifyScheduleItemTableViewController.swift */,
+			);
+			name = Modify;
+			sourceTree = "<group>";
+		};
+		17F7AB021D95A3D1005AD02B /* Detail Views */ = {
+			isa = PBXGroup;
+			children = (
+				171EB5B41D8F2B94008F6076 /* ToDoItemTableViewController.swift */,
+				1748C3A81D93F18500B4AD87 /* ScheduleItemTableViewController.swift */,
+				177B5F701D307281006A6801 /* GroupViewController.swift */,
+				17151A091D7F27B500F045A4 /* EmployeeDetailsTableViewController.swift */,
+			);
+			name = "Detail Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		177B5F341D30716B006A6801 /* Bizzorg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177B5F5D1D30716B006A6801 /* Build configuration list for PBXNativeTarget "Bizzorg" */;
+			buildPhases = (
+				177B5F311D30716B006A6801 /* Sources */,
+				177B5F321D30716B006A6801 /* Frameworks */,
+				177B5F331D30716B006A6801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bizzorg;
+			productName = Bizzorg;
+			productReference = 177B5F351D30716B006A6801 /* Bizzorg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		177B5F481D30716B006A6801 /* BizzorgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177B5F601D30716B006A6801 /* Build configuration list for PBXNativeTarget "BizzorgTests" */;
+			buildPhases = (
+				177B5F451D30716B006A6801 /* Sources */,
+				177B5F461D30716B006A6801 /* Frameworks */,
+				177B5F471D30716B006A6801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177B5F4B1D30716B006A6801 /* PBXTargetDependency */,
+			);
+			name = BizzorgTests;
+			productName = BizzorgTests;
+			productReference = 177B5F491D30716B006A6801 /* BizzorgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		177B5F531D30716B006A6801 /* BizzorgUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177B5F631D30716B006A6801 /* Build configuration list for PBXNativeTarget "BizzorgUITests" */;
+			buildPhases = (
+				177B5F501D30716B006A6801 /* Sources */,
+				177B5F511D30716B006A6801 /* Frameworks */,
+				177B5F521D30716B006A6801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177B5F561D30716B006A6801 /* PBXTargetDependency */,
+			);
+			name = BizzorgUITests;
+			productName = BizzorgUITests;
+			productReference = 177B5F541D30716B006A6801 /* BizzorgUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177B5F2D1D30716B006A6801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jordan Field";
+				TargetAttributes = {
+					177B5F341D30716B006A6801 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5D4T96AU2Q;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					177B5F481D30716B006A6801 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5D4T96AU2Q;
+						LastSwiftMigration = 0900;
+						TestTargetID = 177B5F341D30716B006A6801;
+					};
+					177B5F531D30716B006A6801 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5D4T96AU2Q;
+						LastSwiftMigration = 0900;
+						TestTargetID = 177B5F341D30716B006A6801;
+					};
+				};
+			};
+			buildConfigurationList = 177B5F301D30716B006A6801 /* Build configuration list for PBXProject "Bizzorg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 177B5F2C1D30716B006A6801;
+			productRefGroup = 177B5F361D30716B006A6801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				177B5F341D30716B006A6801 /* Bizzorg */,
+				177B5F481D30716B006A6801 /* BizzorgTests */,
+				177B5F531D30716B006A6801 /* BizzorgUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		177B5F331D30716B006A6801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177B5F691D3071FB006A6801 /* LaunchScreen.storyboard in Resources */,
+				17C000D71D33D008002DCCAC /* Assets.xcassets in Resources */,
+				177B5F671D3071F1006A6801 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177B5F471D30716B006A6801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177B5F521D30716B006A6801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177B5F311D30716B006A6801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CE7A581D96BA22004D5BB8 /* ItemPickerTableViewCell.swift in Sources */,
+				17C9371B1E28DA43003E05AB /* ViewControllerFunctions.swift in Sources */,
+				177B5F831D307281006A6801 /* LoginViewController.swift in Sources */,
+				177B5F7D1D307281006A6801 /* GroupViewController.swift in Sources */,
+				17324B331F9CEA5900F515E8 /* User.swift in Sources */,
+				177B5F821D307281006A6801 /* InitialViewController.swift in Sources */,
+				17642D341D8BFA14005CAA9B /* ToDoListItemSummaryTableViewCell.swift in Sources */,
+				17F7AB011D950F08005AD02B /* ModifyToDoItemTableViewController.swift in Sources */,
+				176939901D815515009F624C /* EmployeeApiCalls.swift in Sources */,
+				177B5F7A1D307281006A6801 /* Constants.swift in Sources */,
+				177B5F781D307281006A6801 /* ModifyGroupTableViewController.swift in Sources */,
+				17CE7A561D96B8B1004D5BB8 /* DatePickerTableViewCell.swift in Sources */,
+				17AF54361DD08F4700FC935A /* GroupsExtraTableViewController.swift in Sources */,
+				17680ED91D92807000F7B68D /* ScheduleItemsTableViewController.swift in Sources */,
+				177B5F841D307281006A6801 /* MemberCollectionViewCell.swift in Sources */,
+				177B5F801D307281006A6801 /* ToDoListTableViewController.swift in Sources */,
+				177B5F7C1D307281006A6801 /* GroupsTableViewController.swift in Sources */,
+				1760488D1DA97BE800FE837B /* ModifyScheduleItemTableViewController.swift in Sources */,
+				177B5F7F1D307281006A6801 /* ProfileTableViewController.swift in Sources */,
+				17324B311F9CE23100F515E8 /* EmployeeV2.swift in Sources */,
+				17680EDB1D9280D800F7B68D /* ScheduleItem.swift in Sources */,
+				17151A0A1D7F27B500F045A4 /* EmployeeDetailsTableViewController.swift in Sources */,
+				177B5F811D307281006A6801 /* GroupSummaryTableViewCell.swift in Sources */,
+				177AB1F01D36419700118380 /* EmployeeGroup.swift in Sources */,
+				17680ED61D927FCF00F7B68D /* ScheduleItemSummaryTableViewCell.swift in Sources */,
+				177B5F391D30716B006A6801 /* AppDelegate.swift in Sources */,
+				171EB5B51D8F2B94008F6076 /* ToDoItemTableViewController.swift in Sources */,
+				1748C3A91D93F18500B4AD87 /* ScheduleItemTableViewController.swift in Sources */,
+				177AB1EE1D36416800118380 /* Employee.swift in Sources */,
+				177AB1F21D36421B00118380 /* ToDoListItem.swift in Sources */,
+				17126B0D1D8C5DD400272763 /* EmployeesSummaryTableViewCell.swift in Sources */,
+				177B5F7E1D307281006A6801 /* NetworkingFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177B5F451D30716B006A6801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177B5F4E1D30716B006A6801 /* BizzorgTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177B5F501D30716B006A6801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177B5F591D30716B006A6801 /* BizzorgUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		177B5F4B1D30716B006A6801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 177B5F341D30716B006A6801 /* Bizzorg */;
+			targetProxy = 177B5F4A1D30716B006A6801 /* PBXContainerItemProxy */;
+		};
+		177B5F561D30716B006A6801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 177B5F341D30716B006A6801 /* Bizzorg */;
+			targetProxy = 177B5F551D30716B006A6801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		177B5F5B1D30716B006A6801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		177B5F5C1D30716B006A6801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		177B5F5E1D30716B006A6801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5D4T96AU2Q;
+				INFOPLIST_FILE = Bizzorg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.jordanfield.Bizzorg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		177B5F5F1D30716B006A6801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5D4T96AU2Q;
+				INFOPLIST_FILE = Bizzorg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.jordanfield.Bizzorg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		177B5F611D30716B006A6801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BizzorgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.jordanfield.BizzorgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bizzorg.app/Bizzorg";
+			};
+			name = Debug;
+		};
+		177B5F621D30716B006A6801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BizzorgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.jordanfield.BizzorgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bizzorg.app/Bizzorg";
+			};
+			name = Release;
+		};
+		177B5F641D30716B006A6801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BizzorgUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.jordanfield.BizzorgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Bizzorg;
+			};
+			name = Debug;
+		};
+		177B5F651D30716B006A6801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BizzorgUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.jordanfield.BizzorgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Bizzorg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177B5F301D30716B006A6801 /* Build configuration list for PBXProject "Bizzorg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177B5F5B1D30716B006A6801 /* Debug */,
+				177B5F5C1D30716B006A6801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177B5F5D1D30716B006A6801 /* Build configuration list for PBXNativeTarget "Bizzorg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177B5F5E1D30716B006A6801 /* Debug */,
+				177B5F5F1D30716B006A6801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177B5F601D30716B006A6801 /* Build configuration list for PBXNativeTarget "BizzorgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177B5F611D30716B006A6801 /* Debug */,
+				177B5F621D30716B006A6801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177B5F631D30716B006A6801 /* Build configuration list for PBXNativeTarget "BizzorgUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177B5F641D30716B006A6801 /* Debug */,
+				177B5F651D30716B006A6801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 177B5F2D1D30716B006A6801 /* Project object */;
+}
