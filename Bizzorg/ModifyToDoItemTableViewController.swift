@@ -455,7 +455,7 @@ class ModifyToDoItemTableViewController: UITableViewController,
     itemDescription = textView.text
     //If the user has in fact deleted the description, put the placeholder text
     //back in.
-    if textView.text.characters.count == 0 {
+    if textView.text.count == 0 {
       textView.textColor = UIColor.lightGray
       textView.text = "Description"
     }
